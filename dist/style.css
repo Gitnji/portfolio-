@@ -10,6 +10,7 @@ html{
 body {
     background-color: #021919;
     color: #fff;
+    overflow-x: hidden;
 }
 #header {
     width: 100%;
