@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJI's personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9855ad081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                    <img src="/logo.png" class="logo" height="50" width="50" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                 <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>  
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>             
+            </nav>
+            <div class="header-text">
+                <h1>PHP/LARAVEL Developer</h1><br>
+                <p>Hi,<br> I am <span>NJI</span><br>
+                 from cameroon</p>
+                Explore my projects and skills</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/olumuyiwa-sobowale-kQIdjLbCghA-unsplash.jpg" height="400" width="400" >
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>Hi, I am NJI, a PHP/Laravel developer with a passion for creating dynamic and responsive
+                     web applications. I have experience in building robust back-end systems and integrating
+                      them with user-friendly front-end interfaces. My goal is to deliver high-quality software
+                       solutions that meet the needs of users and businesses alike.</p>
+                <p>I am always eager to learn new technologies and improve my skills. I enjoy collaborating.</p><br><br>
+                <div class="tab-tittles">
+                <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p> 
+                <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                </div><br><br>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PHP/LARAVEL:</span><br>Building suitable API's for your web services</li><br>
+                        <li><span>Web Development:</span><br>Building suitable web apps for any service</li><br>
+                        <li><span>Youtuber:</span><br>Creating content to help upcoming developers grow their skils</li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025-current:</span><br>PHP developer at SKYE8</li><br>
+                        <li><span>2022-2023:</span><br>Intern at SKYE8</li><br>
+                        <li><span>2021:</span><br>Student at SHIBUST</li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>HND:</span><br>I did a 2 year HND certification course at SHIBUST</li><br>
+                    </ul>
+            </div>
+        </div>
+        </div>      
+        </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-lists">
+                
+                <div>
+                    <i class="fa-solid fa-code"></i><br>
+                    <h2>Backend Dev</h2><br>
+                    <p>Developing rebust application program interfaces</p><br>
+                    <a href="##">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-chrome"></i><br>
+                    <h2>Web Design</h2><br>
+                    <p>Developing attractive and interactive web services</p><br>
+                    <a href="##">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i><br>
+                    <h2>Youtube</h2><br>
+                    <p>Contact for collaboration and sponsorship</p><br>
+                    <a href="##">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-tittle">Projects</h1><br><br>
+            <div class="project-lists">
+                <div class="project">
+                    <img src="/becomes-co-7oBmQz4bfrQ-unsplash.jpg" width="250" height="250"><br>
+                    <div class="layer">
+                        <h3>CRUD API</h3><br>
+                        <p>This API can be used to perform CRUD operations between a database and a web app</p><br>
+                        <a href="##"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg" width="200" height="250"><br>
+                    <div class="layer">
+                    <h3>News APi</h3><br>
+                    <p>This API can be used to implement news feature on any web application</p><br>
+                    <a href="##"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="/webstacks-WbOR54pzvLM-unsplash.jpg" width="200" height="250"><br>
+                    <div class="layer">
+                    <h3>SHOPY237</h3><br>
+                    <p>This is a full stack e-commerce application built with laravel and vuejs</p><br>
+                    <a href="##"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="##" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h3 class="sub-tittle">Contact Me</h3>
+                   <p><i class="fa fa-paper-plane" aria-hidden="true"></i>Contactnji@gmail.com</p>
+                   <P><i class="fa fa-phone" aria-hidden="true"></i>+237_________________</P><br><br>
+                   <div class="social-icons">
+                    <a href=""><i class="fa fa-xing-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                   </div>
+                   <div class="cv">
+                   <i class="fa fa-download" aria-hidden="true"></i><a href="/FRI DOC.pdf" class="btn btn2" download >Download CV</a>
+                   </div>
+                </div>
+                <div class="contact-left">  
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="text" name="phone" placeholder="your phone number" required>
+                        <input type="text" name="email" placeholder="your Email" required>
+                        <textarea name="message" rows="6" placeholder="Enter your message here" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 NJI. All rights reserved.</p>
+            <p>Designed by <a href=""target="_blank">NJI</a></p>
+        </div>
+    </div>
+
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+
+            var sidemenu =  document.getElementById("sidemenu");
+
+            function openmenu(){
+               sidemenu.style.right = "0" 
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+        
+        </script>
+        <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyfb1ycVG2pNStiQsBZLmPkIbrIlpvQu4jTUf_-c-MHCggsOgvUayd1wF344GfwDh0l/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+</body>
+</html>
